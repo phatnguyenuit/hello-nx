@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "common-ui": "libs/common-ui",
+    "common-ui-e2e": "apps/common-ui-e2e",
     "todos": "apps/todos",
     "todos-e2e": "apps/todos-e2e"
   }
